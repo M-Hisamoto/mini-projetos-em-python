@@ -9,7 +9,7 @@ elif ola == "sim":
     x1 = int(input("primeira tentativa:"))
 if x1 == num: 
         print("que sorte, de primeira\nvocê me venceu:(")
-if x1!=num:
+elif x1!=num:
     x2 =int(input("que azar, tente novamente:"))
 if x2 == num:
     print("parabéns, você venceu que sortudo")
@@ -18,4 +18,4 @@ else:
 if x3 == num:
     print("parabéns, vc ganhou por pouco.")
 else:
-    print("HAHAHA, mais sorte da pró ima vez, ganhei mais uma.")
+    print("HAHAHA, mais sorte da próxima vez, ganhei mais uma.")
