@@ -24,3 +24,6 @@ if opec == "par ou ímpar":
         print(f'o número {b} é ímpar, e o {a} é par')
     elif ra != 0 and rb != 0:
         print('os dois números são ímpares')
+if opec == "média":
+    media = (a+b)/2
+    print(media)
